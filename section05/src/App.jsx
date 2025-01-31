@@ -1,9 +1,12 @@
 import "./App.css";
+import { useState } from "react";
+import Register from "./components/Register";
+import HookExam from "./components/HookExam";
 
 function App() {
   return (
     <>
-      <h1>안녕 리액트!</h1>
+      <HookExam />
     </>
   );
 }
